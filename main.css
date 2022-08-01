@@ -1,0 +1,40 @@
+:root{
+    --green:#f1d9a5; 
+    --white:#ffffff;
+    --black:#000000;
+}
+    
+
+*{
+    color: var(--fontColor);
+    font-family: Arial
+}
+
+Body { 
+    background: var(--bg);
+    font-size: medium;
+    font-style: italic;
+}
+
+
+.light-theme{
+   --bg: var(--green);
+   --fontColor: var(--black);
+   --btnBg:var(--black);
+   --btnFontColor:var(--white);
+}
+
+#title{
+    font-size: x-large;
+    
+}
+
+.mgs{
+    font-size: large;
+
+}
+
+.text{
+    font-size: small;
+}
+
